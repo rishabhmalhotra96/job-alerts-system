@@ -56,7 +56,7 @@ function extractJsonArray(value: string, marker: string): string {
 }
 
 function parseFlightPayload(html: string): unknown[] {
-  const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)]
+  const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script\s*>/gi)]
     .map((match) => match[1])
     .filter((script) => script.includes("parsedJobs"));
   if (scripts.length !== 1) {

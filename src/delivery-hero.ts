@@ -49,7 +49,7 @@ function parseTimestamp(value: string, field: string): string {
 
 function extractJobPosting(html: string): Record<string, unknown> {
   const scripts = [...html.matchAll(
-    /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+    /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script\s*>/gi,
   )];
   const postings: Record<string, unknown>[] = [];
   for (const script of scripts) {

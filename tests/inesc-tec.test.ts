@@ -88,6 +88,18 @@ test("accepts missing non-authoritative centre metadata", () => {
   assert.equal(parseInescTecDetail(detailHtml, listing, source, fetchedAt).sourceJobId, "AE2026-0268");
 });
 
+test("ignores complete listing comments and rejects malformed comment boundaries", () => {
+  const commented = listingHtml
+    .replace("<thead>", "<thead><!-- <th>Ignored</th> -->")
+    .replace("<tbody>\n<tr>", "<tbody>\n<tr><!-- <td>Ignored</td> -->");
+
+  assert.equal(parseInescTecListing(commented, source, fetchedAt).total, 3);
+  assert.throws(
+    () => parseInescTecListing(listingHtml.replace("<thead>", "<thead><!--"), source, fetchedAt),
+    /malformed HTML comments/,
+  );
+});
+
 test("enforces Portugal, complete English content, and conservative employment", () => {
   const listing = parseInescTecListing(listingHtml, configuredSource, fetchedAt).listings[0];
   const job = parseInescTecDetail(detailHtml, listing, configuredSource, fetchedAt);

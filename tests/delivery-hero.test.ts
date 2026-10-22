@@ -40,6 +40,15 @@ function response(body: string, contentType: string): ShadowHttpResponse {
   };
 }
 
+function removeJobPostingScript(html: string): string {
+  const openingTag = '<script type="application/ld+json">';
+  const start = html.indexOf(openingTag);
+  const closing = html.indexOf("</script>", start + openingTag.length);
+  assert.notEqual(start, -1, "fixture must contain a JSON-LD script");
+  assert.notEqual(closing, -1, "fixture JSON-LD script must be complete");
+  return html.slice(0, start) + html.slice(closing + "</script>".length);
+}
+
 test("prefilters Germany target titles from the complete Delivery Hero sitemap", () => {
   const parsed = parseDeliveryHeroSitemap(sitemap, source);
 
@@ -63,10 +72,21 @@ test("normalizes a complete Delivery Hero JobPosting detail", () => {
   assert.match(job.descriptionText, /forecasting, and optimization/);
 });
 
+test("accepts valid whitespace in JSON-LD script closing tags", () => {
+  const listing = parseDeliveryHeroSitemap(sitemap, source).listings[0];
+  const job = parseDeliveryHeroDetail(
+    detailHtml.replace("</script>", "</script >"),
+    listing,
+    source,
+    "2026-09-25T12:00:00Z",
+  );
+
+  assert.equal(job.sourceJobId, "10906");
+});
+
 test("recognizes only canonically matched expired Delivery Hero details", () => {
   const listing = parseDeliveryHeroSitemap(sitemap, source).listings[0];
-  const expired = detailHtml
-    .replace(/<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/, "")
+  const expired = removeJobPostingScript(detailHtml)
     .replace("<body>", "<body><h2>This vacancy has now expired. Please see similar roles below...</h2>");
 
   assert.equal(isExpiredDeliveryHeroDetail(expired, listing, source), true);
@@ -182,10 +202,9 @@ test("collects the sitemap and fetches only bounded candidate details", () => {
 });
 
 test("excludes an explicitly expired Delivery Hero detail without masking malformed pages", () => {
-  const expired = detailHtml
+  const expired = removeJobPostingScript(detailHtml
     .replaceAll("10906", "10845")
-    .replaceAll("senior-machine-learning-engineer-logistics-optimization", "senior-data-scientist-maternity-cover")
-    .replace(/<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/, "")
+    .replaceAll("senior-machine-learning-engineer-logistics-optimization", "senior-data-scientist-maternity-cover"))
     .replace("<body>", "<body><h2>This vacancy has now expired. Please see similar roles below...</h2>");
   const fetchMany: FetchMany = (requests) => requests.length === 1
     ? [response(sitemap, "text/xml; charset=utf-8")]
