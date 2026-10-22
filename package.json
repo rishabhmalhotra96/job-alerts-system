@@ -16,9 +16,9 @@
   "devDependencies": {
     "@google/clasp": "^3.4.1",
     "@types/google-apps-script": "^2.0.8",
-    "@types/node": "^24.0.0",
-    "esbuild": "^0.25.0",
-    "read-excel-file": "^9.3.10",
-    "typescript": "^5.9.0"
+    "@types/node": "^26.6.5",
+    "esbuild": "^0.28.2",
+    "read-excel-file": "^9.3.12",
+    "typescript": "^7.0.2"
   }
 }
