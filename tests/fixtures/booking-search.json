@@ -1,0 +1,24 @@
+{
+  "totalCount": 1,
+  "jobs": [
+    {
+      "data": {
+        "slug": "30097",
+        "req_id": "30097",
+        "title": "Data Scientist II - Finance Payments",
+        "description": "<p>Build machine learning ranking systems.</p>",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "tags1": ["Booking.com Company Hierarchy"],
+        "brand": "Booking.com",
+        "hiring_organization": "Booking.com",
+        "employment_type": "FULL_TIME",
+        "posted_date": "2026-09-08T16:17:00+0000",
+        "update_date": "2026-09-08T16:18:45+0000",
+        "searchable": true,
+        "applyable": true
+      }
+    }
+  ]
+}

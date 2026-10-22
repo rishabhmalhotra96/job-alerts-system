@@ -1,0 +1,67 @@
+{
+  "jobs": [
+    {
+      "data": {
+        "slug": "92001",
+        "req_id": "92001",
+        "title": "Senior AI Engineer",
+        "description": "<p>Build machine learning systems. Professional English is required.</p>",
+        "full_location": "Helsinki, Finland",
+        "country_code": "FI",
+        "employment_type": "FULL_TIME",
+        "posted_date": "2026-09-20T08:00:00+0000",
+        "update_date": "2026-09-21T09:30:00+0000",
+        "searchable": true,
+        "applyable": true
+      }
+    },
+    {
+      "data": {
+        "slug": "92002",
+        "req_id": "92002",
+        "title": "Senior Machine Learning Engineer",
+        "description": "<p>Build machine learning systems. Professional English is required.</p>",
+        "full_location": "Austin, United States",
+        "country_code": "US",
+        "employment_type": "FULL_TIME",
+        "posted_date": "2026-09-19T08:00:00+0000",
+        "update_date": "2026-09-20T09:30:00+0000",
+        "searchable": true,
+        "applyable": true
+      }
+    },
+    {
+      "data": {
+        "slug": "92003",
+        "req_id": "92003",
+        "title": "Senior AI Engineer",
+        "description": "<p>Build machine learning systems. Fluent Finnish is mandatory.</p>",
+        "full_location": "Helsinki, Finland",
+        "country_code": "FI",
+        "employment_type": "FULL_TIME",
+        "posted_date": "2026-09-18T08:00:00+0000",
+        "update_date": "2026-09-19T09:30:00+0000",
+        "searchable": true,
+        "applyable": true
+      }
+    },
+    {
+      "data": {
+        "slug": "92004",
+        "req_id": "92004",
+        "title": "Senior Research Engineer",
+        "description": "<p>Build machine learning systems.</p>",
+        "full_location": "Helsinki, Finland",
+        "country_code": "FI",
+        "employment_type": "FULL_TIME",
+        "posted_date": "2026-09-17T08:00:00+0000",
+        "update_date": "2026-09-18T09:30:00+0000",
+        "searchable": false,
+        "applyable": false
+      }
+    }
+  ],
+  "locations": [],
+  "totalCount": 4,
+  "count": 4
+}

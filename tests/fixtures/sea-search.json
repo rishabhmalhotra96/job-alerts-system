@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "total_count": 1,
+    "job_list": [
+      {
+        "id": 136441,
+        "job_id": "J02185923",
+        "job_name": "Senior AI Engineer",
+        "city_id": 25,
+        "employment_id": 1,
+        "sub_team_description": "<p>Build AI products.</p>",
+        "job_description": "<ul><li>Deploy machine learning systems.</li></ul>",
+        "requirements": "<p>Production experience &amp; Python.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "id": 9101,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Singapore" },
+      "absolute_url": "https://job-boards.greenhouse.io/agoda/jobs/9101",
+      "first_published": "2026-09-15T08:00:00Z",
+      "updated_at": "2026-09-16T08:00:00Z",
+      "metadata": [
+        { "name": "Visa sponsored", "value": true }
+      ],
+      "content": "<p>Build production ranking and recommendation models. Visa sponsorship and relocation assistance are available.</p>"
+    },
+    {
+      "id": 9102,
+      "title": "Data Analyst",
+      "location": { "name": "Singapore" },
+      "absolute_url": "https://job-boards.greenhouse.io/agoda/jobs/9102",
+      "content": "<p>Build business reporting dashboards.</p>"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Berlin, Germany" },
+      "absolute_url": "https://boards.greenhouse.io/example/jobs/101",
+      "first_published": "2026-09-15T08:00:00Z",
+      "updated_at": "2026-09-16T08:00:00Z",
+      "metadata": [
+        { "name": "Employment Type", "value": "Employee - Permanent" }
+      ],
+      "content": "<p>Build ranking &amp; recommendation systems.</p><script>ignored()</script>"
+    },
+    {
+      "id": 102,
+      "title": "Data Analyst",
+      "location": { "name": "Remote - EMEA" },
+      "absolute_url": "https://boards.greenhouse.io/example/jobs/102",
+      "content": "<p>Business intelligence reporting.</p>"
+    }
+  ]
+}

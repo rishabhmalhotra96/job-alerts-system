@@ -1,0 +1,27 @@
+[
+  {
+    "total": 21,
+    "jobPostings": [
+      {
+        "title": "Senior Data Scientist",
+        "externalPath": "/job/28050-MADRID-Madrid/Senior-Data-Scientist_JR100",
+        "locationsText": "28050, MADRID, Madrid"
+      }
+    ]
+  },
+  {
+    "total": 0,
+    "jobPostings": [
+      {
+        "title": "Senior Machine Learning Engineer",
+        "externalPath": "/job/28050-MADRID-Madrid/Senior-Machine-Learning-Engineer_JR101",
+        "locationsText": "28050, MADRID, Madrid"
+      },
+      {
+        "title": "Account Executive",
+        "externalPath": "/job/48001-BILBAO-Vizcaya/Account-Executive_JR102",
+        "locationsText": "48001, BILBAO, Vizcaya"
+      }
+    ]
+  }
+]

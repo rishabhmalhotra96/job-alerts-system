@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 91001,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Paris, France" },
+      "absolute_url": "https://careers.datadoghq.com/detail/91001/?gh_jid=91001",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Regular" }],
+      "content": "<p>Build and deploy machine learning ranking systems. Professional English is required.</p>"
+    },
+    {
+      "id": 91002,
+      "title": "Senior Data Scientist",
+      "location": { "name": "New York, United States" },
+      "absolute_url": "https://careers.datadoghq.com/detail/91002/?gh_jid=91002",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Regular" }],
+      "content": "<p>Develop machine learning systems for product analytics.</p>"
+    },
+    {
+      "id": 91003,
+      "title": "Senior AI Engineer",
+      "location": { "name": "Remote - EMEA" },
+      "absolute_url": "https://careers.datadoghq.com/detail/91003/?gh_jid=91003",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Regular" }],
+      "content": "<p>Build machine learning services for AI agents.</p>"
+    }
+  ]
+}

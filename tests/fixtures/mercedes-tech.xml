@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report_Data xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wd="urn:com.workday.report/INT003_DE_O_Open_Positions_202211_Data_Outbound_Custom_Report">
+  <Report_Entry>
+    <jobPostingSite>MBTI Jobportal</jobPostingSite>
+    <jobPosting>Senior Data Scientist (m/f/d/x)</jobPosting>
+    <Company>Mercedes-Benz Tech Innovation</Company>
+    <Title>Senior Data Scientist (m/f/d/x)</Title>
+    <jobDescription><![CDATA[<p>We are Mercedes-Benz Tech Innovation. You will build production machine-learning models, design reliable experiments, and work with engineers to improve mobility products. You bring Python, statistics, causal inference, and strong communication skills to an international product team.</p>]]></jobDescription>
+    <jobAdditionalDescription><![CDATA[<p>You bring Python, statistics, causal inference, and strong communication skills.</p>]]></jobAdditionalDescription>
+    <jobRequisition><![CDATA[<p>You will build production machine-learning models and design reliable experiments.</p>]]></jobRequisition>
+    <jobRequisitionID>R0007001</jobRequisitionID>
+    <targetGroup>Professional (Permanent)</targetGroup>
+    <jobFamily/>
+    <jobProfiles>Data Science</jobProfiles>
+    <Location>Berlin</Location>
+    <Location>Remote - Hybrid</Location>
+    <startDate>2026-09-20T07:00:00+01:00</startDate>
+    <URL>https://mercedesbenztechinnovation.wd3.myworkdayjobs.com/MBTI_JOBPORTAL/job/Berlin/Senior-Data-Scientist_R0007001</URL>
+    <externalApplyURL>https://mercedesbenztechinnovation.wd3.myworkdayjobs.com/MBTI_JOBPORTAL/job/Berlin/Senior-Data-Scientist_R0007001/apply</externalApplyURL>
+  </Report_Entry>
+  <Report_Entry>
+    <jobPostingSite>MBTI Jobportal</jobPostingSite>
+    <jobPosting>Working Student Software Development (m/f/d/x)</jobPosting>
+    <Company>Mercedes-Benz Tech Innovation</Company>
+    <Title>Working Student Software Development (m/f/d/x)</Title>
+    <jobDescription><![CDATA[<p>Join the software development team and support modern vehicle applications. You will contribute code, tests, documentation, and operational improvements while learning from experienced engineers in an international agile environment.</p>]]></jobDescription>
+    <jobAdditionalDescription><![CDATA[<p>You are enrolled in computer science and communicate fluently in German and English.</p>]]></jobAdditionalDescription>
+    <jobRequisition><![CDATA[<p>You will contribute code, tests, documentation, and operational improvements.</p>]]></jobRequisition>
+    <jobRequisitionID>R0007002</jobRequisitionID>
+    <targetGroup>Werkstudent (Fixed Term)</targetGroup>
+    <jobFamily/>
+    <jobProfiles>Werkstudent</jobProfiles>
+    <Location>Ulm</Location>
+    <Location/>
+    <startDate>2026-09-21T07:00:00+01:00</startDate>
+    <URL>https://mercedesbenztechinnovation.wd3.myworkdayjobs.com/MBTI_JOBPORTAL/job/Ulm/Working-Student-Software-Development_R0007002</URL>
+    <externalApplyURL>https://mercedesbenztechinnovation.wd3.myworkdayjobs.com/MBTI_JOBPORTAL/job/Ulm/Working-Student-Software-Development_R0007002/apply</externalApplyURL>
+  </Report_Entry>
+</Report_Data>

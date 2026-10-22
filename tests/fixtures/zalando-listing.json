@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "title": "Senior Applied Scientist (all genders)",
+      "id": "2725175",
+      "entity": "Zalando SE",
+      "job_categories": ["Applied Science & Research"],
+      "offices": ["Berlin"],
+      "experience_level": "Professional Level",
+      "updated_at": "2026-09-25T02:49:41.643-07:00"
+    },
+    {
+      "title": "P&O Business Partner (all genders)",
+      "id": "2725414",
+      "entity": "Zalando OpCo Polska Sp. z o.o.",
+      "job_categories": ["People & Organization"],
+      "offices": ["Poland - Gluchow"],
+      "experience_level": "Professional Level",
+      "updated_at": "2026-09-03T07:14:45.084-07:00"
+    }
+  ],
+  "total": 2,
+  "facets": {},
+  "first": "/search?q=&filters=%7B%7D&limit=100&offset=0",
+  "last": "/search?q=&filters=%7B%7D&limit=100&offset=0"
+}

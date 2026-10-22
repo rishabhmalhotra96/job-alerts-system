@@ -1,0 +1,33 @@
+{
+  "total": 21,
+  "jobPostings": [
+    {
+      "title": "Senior Data Scientist",
+      "externalPath": "/job/Best/Senior-Data-Scientist_PH100",
+      "locationsText": "Best",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": ["PH100"]
+    },
+    {
+      "title": "Account Executive",
+      "externalPath": "/job/Amsterdam/Account-Executive_PH101",
+      "locationsText": "Amsterdam",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": ["PH101"]
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "externalPath": "/job/Bangalore/Senior-Machine-Learning-Engineer_PH102",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 4 Days Ago",
+      "bulletFields": ["PH102"]
+    },
+    {
+      "title": "Senior AI Engineer",
+      "externalPath": "/job/Best/Senior-AI-Engineer_PH103",
+      "locationsText": "Best",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": ["PH103"]
+    }
+  ]
+}

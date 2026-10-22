@@ -1,0 +1,23 @@
+{
+  "hits": 2,
+  "jobs": [
+    {
+      "id": "amazon-101",
+      "title": "Senior Applied Scientist",
+      "description": "<p>Build machine learning ranking systems.</p>",
+      "location": "DE, BE, Berlin",
+      "country_code": "DEU",
+      "job_path": "/en/jobs/101/senior-applied-scientist",
+      "job_schedule_type": "full-time"
+    },
+    {
+      "id": "amazon-102",
+      "title": "Account Executive",
+      "description": "Manage accounts.",
+      "location": "IE, Dublin",
+      "country_code": "IRL",
+      "job_path": "/en/jobs/102/account-executive",
+      "job_schedule_type": "full-time"
+    }
+  ]
+}

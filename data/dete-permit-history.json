@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "provider": "DETE",
+  "sourceUrl": "https://enterprise.gov.ie/en/publications/publication-files/employment-permits-issued-to-companies-2026.xlsx",
+  "publicationMonth": "2026-09",
+  "evidenceThroughMonth": "2026-08",
+  "sourceFileSha256": "6eda2faf275bf4f469790a1a3c9fd9c11e5ae4e2eccf01472498235f2a22587d",
+  "entities": [
+    {
+      "company": "Google",
+      "legalEntities": [
+        "Google Cloud EMEA Limited",
+        "Google Ireland Limited"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "legalEntities": [
+        "Amazon Data Services Ireland Limited",
+        "Amazon Development Centre Ireland Limited",
+        "Amazon EU Sarl, Irish Branch",
+        "Amazon Ireland Support Services Limited",
+        "Amazon Web Services EMEA SARL"
+      ]
+    },
+    {
+      "company": "Mastercard",
+      "legalEntities": [
+        "Mastercard Ireland Limited"
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "legalEntities": [
+        "Microsoft Ireland Operations Limited",
+        "Microsoft Ireland Research Unlimited Company",
+        "Microsoft RL Unlimited Company"
+      ]
+    },
+    {
+      "company": "Meta",
+      "legalEntities": [
+        "Meta Platforms Ireland Limited"
+      ]
+    },
+    {
+      "company": "Stripe",
+      "legalEntities": [
+        "Stripe Payments Europe Limited",
+        "Stripe Technology Company Limited"
+      ]
+    }
+  ]
+}

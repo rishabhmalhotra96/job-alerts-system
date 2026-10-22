@@ -1,0 +1,33 @@
+{
+  "total": 21,
+  "jobPostings": [
+    {
+      "title": "Senior Data Scientist",
+      "externalPath": "/job/Singapore/Senior-Data-Scientist_RZ100",
+      "locationsText": "Singapore",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": ["Data Scientist", "RZ100"]
+    },
+    {
+      "title": "Account Executive",
+      "externalPath": "/job/Singapore/Account-Executive_RZ101",
+      "locationsText": "Singapore",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": ["Sales", "RZ101"]
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "externalPath": "/job/Chengdu/Senior-Machine-Learning-Engineer_RZ102",
+      "locationsText": "Chengdu",
+      "postedOn": "Posted 4 Days Ago",
+      "bulletFields": ["Machine Learning", "RZ102"]
+    },
+    {
+      "title": "Senior AI Engineer",
+      "externalPath": "/job/Singapore/Senior-AI-Engineer_RZ103",
+      "locationsText": "Singapore",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": ["Artificial Intelligence", "RZ103"]
+    }
+  ]
+}

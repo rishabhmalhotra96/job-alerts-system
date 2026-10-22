@@ -1,0 +1,47 @@
+{
+  "jobs": [
+    {
+      "id": "08a0cb1c-dafe-4c97-86c0-f0ece6e1f2e3",
+      "title": "Software Engineer, AI",
+      "location": "Paris",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "France"
+        }
+      },
+      "descriptionPlain": "Build AI-powered systems for social products.",
+      "jobUrl": "https://jobs.ashbyhq.com/amo/08a0cb1c-dafe-4c97-86c0-f0ece6e1f2e3",
+      "isListed": true,
+      "employmentType": "FullTime",
+      "workplaceType": "OnSite"
+    },
+    {
+      "id": "f106a51e-c7c1-4b4b-8b54-fb745996be1c",
+      "title": "Senior AI Software Engineer",
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United States"
+        }
+      },
+      "descriptionPlain": "Build machine learning systems for social products.",
+      "jobUrl": "https://jobs.ashbyhq.com/amo/f106a51e-c7c1-4b4b-8b54-fb745996be1c",
+      "isListed": true,
+      "employmentType": "FullTime"
+    },
+    {
+      "id": "b7729485-ea62-4d34-9aee-78883f25ce06",
+      "title": "Software Engineer Backend",
+      "location": "Paris",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "France"
+        }
+      },
+      "descriptionPlain": "Build reliable systems for social products.",
+      "jobUrl": "https://jobs.ashbyhq.com/amo/b7729485-ea62-4d34-9aee-78883f25ce06",
+      "isListed": true,
+      "employmentType": "FullTime"
+    }
+  ]
+}

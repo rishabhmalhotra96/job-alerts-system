@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": 9301,
+      "title": "Senior AI Engineer",
+      "location": { "name": "Porto" },
+      "absolute_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/9301",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build and deploy machine learning systems for contact center products. English is required.</p>"
+    },
+    {
+      "id": 9302,
+      "title": "Senior Data Scientist",
+      "location": { "name": "Berlin, Germany" },
+      "absolute_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/9302",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Develop machine learning models for customer experience analytics.</p>"
+    },
+    {
+      "id": 9303,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Portugal" },
+      "absolute_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/9303",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build production machine learning services. Fluent Portuguese is mandatory.</p>"
+    }
+  ]
+}

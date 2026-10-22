@@ -1,0 +1,24 @@
+[
+  {
+    "id": "fd1ea712-8e5f-4db1-b9ec-36d0e08ac3ae",
+    "text": "AI Applied Scientist",
+    "country": null,
+    "workplaceType": "hybrid",
+    "createdAt": 1748287860042,
+    "categories": {
+      "commitment": "Full-Time or Part-Time",
+      "location": "Europe",
+      "allLocations": [
+        "Europe"
+      ]
+    },
+    "descriptionPlain": "Build applied AI and machine learning systems.",
+    "lists": [
+      {
+        "text": "Requirements",
+        "content": "<li>Professional English.</li>"
+      }
+    ],
+    "hostedUrl": "https://jobs.lever.co/quantco-/fd1ea712-8e5f-4db1-b9ec-36d0e08ac3ae"
+  }
+]

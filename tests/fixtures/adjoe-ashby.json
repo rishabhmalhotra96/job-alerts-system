@@ -1,0 +1,18 @@
+{
+  "jobs": [
+    {
+      "id": "147d4798-84f3-4110-b7c4-3ffb2106bb51",
+      "title": "Senior ML Research Scientist",
+      "location": "Berlin",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany"
+        }
+      },
+      "descriptionPlain": "Build machine learning and recommendation systems.",
+      "jobUrl": "https://jobs.ashbyhq.com/adjoe/147d4798-84f3-4110-b7c4-3ffb2106bb51",
+      "isListed": true,
+      "employmentType": "FullTime"
+    }
+  ]
+}

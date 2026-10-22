@@ -1,0 +1,69 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "aleph-1",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Heidelberg",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany",
+          "addressLocality": "Heidelberg"
+        }
+      },
+      "secondaryLocations": [
+        {
+          "location": "Berlin",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "Germany",
+              "addressLocality": "Berlin"
+            }
+          }
+        }
+      ],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/alephalpha/aleph-1",
+      "descriptionPlain": "Build and deploy machine learning systems for sovereign AI. English is required.",
+      "isListed": true
+    },
+    {
+      "id": "aleph-2",
+      "title": "Senior Data Scientist",
+      "location": "London",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United Kingdom",
+          "addressLocality": "London"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/alephalpha/aleph-2",
+      "descriptionPlain": "Develop machine learning models for enterprise AI.",
+      "isListed": true
+    },
+    {
+      "id": "aleph-3",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Heidelberg",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany",
+          "addressLocality": "Heidelberg"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "OnSite",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/alephalpha/aleph-3",
+      "descriptionPlain": "Build production machine learning services. Fluent German is mandatory.",
+      "isListed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "jobPostingInfo": {
+      "id": "internal-100",
+      "jobReqId": "PH100",
+      "title": "Senior Data Scientist",
+      "location": "Best",
+      "additionalLocations": [],
+      "country": { "descriptor": "Netherlands", "id": "workday-netherlands" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products. English is required.</p>",
+      "externalUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Best/Senior-Data-Scientist_PH100"
+    }
+  },
+  {
+    "jobPostingInfo": {
+      "id": "internal-102",
+      "jobReqId": "PH102",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Bangalore",
+      "additionalLocations": [],
+      "country": { "descriptor": "India", "id": "workday-india" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products.</p>",
+      "externalUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Senior-Machine-Learning-Engineer_PH102"
+    }
+  },
+  {
+    "jobPostingInfo": {
+      "id": "internal-103",
+      "jobReqId": "PH103",
+      "title": "Senior AI Engineer",
+      "location": "Best",
+      "additionalLocations": [],
+      "country": { "descriptor": "Netherlands", "id": "workday-netherlands" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products. Fluent Dutch is mandatory.</p>",
+      "externalUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Best/Senior-AI-Engineer_PH103"
+    }
+  }
+]

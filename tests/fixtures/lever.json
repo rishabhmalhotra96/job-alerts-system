@@ -1,0 +1,97 @@
+[
+  {
+    "id": "farfetch-data-scientist",
+    "text": "Senior Data Scientist",
+    "country": "PT",
+    "workplaceType": "hybrid",
+    "createdAt": 1789819200000,
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Product",
+      "location": "Porto",
+      "team": "Data",
+      "allLocations": ["Porto"]
+    },
+    "openingPlain": "",
+    "descriptionPlain": "Join our Porto data team.",
+    "descriptionBodyPlain": "Join our Porto data team.",
+    "lists": [
+      {
+        "text": "WHAT YOU WILL DO",
+        "content": "<li>Build machine learning products.</li>"
+      },
+      {
+        "text": "WHO YOU ARE",
+        "content": "<li>Professional English is required.</li>"
+      }
+    ],
+    "additionalPlain": "",
+    "hostedUrl": "https://jobs.lever.co/farfetch/farfetch-data-scientist"
+  },
+  {
+    "id": "farfetch-london-ml",
+    "text": "Senior Machine Learning Engineer",
+    "country": "GB",
+    "workplaceType": "onsite",
+    "createdAt": 1789732800000,
+    "categories": {
+      "commitment": "Full-time",
+      "location": "London",
+      "allLocations": ["London"]
+    },
+    "openingPlain": "",
+    "descriptionPlain": "Build machine learning products.",
+    "lists": [
+      {
+        "text": "ABOUT YOU",
+        "content": "<li>Professional English is required.</li>"
+      }
+    ],
+    "additionalPlain": "",
+    "hostedUrl": "https://jobs.lever.co/farfetch/farfetch-london-ml"
+  },
+  {
+    "id": "farfetch-portuguese-ai",
+    "text": "Senior AI Engineer",
+    "country": "PT",
+    "workplaceType": "hybrid",
+    "createdAt": 1789646400000,
+    "categories": {
+      "commitment": "Full-time",
+      "location": "Lisbon",
+      "allLocations": ["Lisbon"]
+    },
+    "openingPlain": "",
+    "descriptionBodyPlain": "Build machine learning products in Lisbon.",
+    "lists": [
+      {
+        "text": "LANGUAGE",
+        "content": "<li>Fluent Portuguese is mandatory.</li>"
+      }
+    ],
+    "additionalPlain": "",
+    "hostedUrl": "https://jobs.lever.co/farfetch/farfetch-portuguese-ai"
+  },
+  {
+    "id": "farfetch-operations",
+    "text": "Operations Specialist",
+    "country": "PT",
+    "workplaceType": "onsite",
+    "createdAt": 1789560000000,
+    "categories": {
+      "commitment": "Full-time",
+      "location": "Porto",
+      "allLocations": ["Porto"]
+    },
+    "openingPlain": "",
+    "descriptionPlain": "Support marketplace operations.",
+    "lists": [
+      {
+        "text": "ABOUT YOU",
+        "content": "<li>Experience in operations.</li>"
+      }
+    ],
+    "additionalPlain": "",
+    "hostedUrl": "https://jobs.lever.co/farfetch/farfetch-operations"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "total": 21,
+  "jobPostings": [
+    {
+      "title": "Senior Data Scientist",
+      "externalPath": "/job/Rotterdam/Senior-Data-Scientist_SH100",
+      "locationsText": "Rotterdam",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": ["SH100"]
+    },
+    {
+      "title": "Account Executive",
+      "externalPath": "/job/Rotterdam/Account-Executive_SH101",
+      "locationsText": "Rotterdam",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": ["SH101"]
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "externalPath": "/job/Bangalore/Senior-Machine-Learning-Engineer_SH102",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 4 Days Ago",
+      "bulletFields": ["SH102"]
+    },
+    {
+      "title": "Senior AI Engineer",
+      "externalPath": "/job/Rotterdam/Senior-AI-Engineer_SH103",
+      "locationsText": "Rotterdam",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": ["SH103"]
+    }
+  ]
+}

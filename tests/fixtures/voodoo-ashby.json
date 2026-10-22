@@ -1,0 +1,43 @@
+{
+  "jobs": [
+    {
+      "id": "c16d0de3-e5b7-4fb9-ae0e-a906a75e9b15",
+      "title": "Senior ML Engineer - Offline Team",
+      "location": "Helsinki",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Finland"
+        }
+      },
+      "secondaryLocations": [
+        {
+          "location": "Paris",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "France"
+            }
+          }
+        }
+      ],
+      "descriptionPlain": "Build production machine learning and recommendation systems.",
+      "jobUrl": "https://jobs.ashbyhq.com/voodoo/c16d0de3-e5b7-4fb9-ae0e-a906a75e9b15",
+      "isListed": true,
+      "employmentType": "FullTime",
+      "workplaceType": "Hybrid"
+    },
+    {
+      "id": "e0e0ba4f-8a78-4e86-865d-11ccae876486",
+      "title": "Senior Data Scientist",
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United States"
+        }
+      },
+      "descriptionPlain": "Develop machine learning models and experimentation systems.",
+      "jobUrl": "https://jobs.ashbyhq.com/voodoo/e0e0ba4f-8a78-4e86-865d-11ccae876486",
+      "isListed": true,
+      "employmentType": "FullTime"
+    }
+  ]
+}

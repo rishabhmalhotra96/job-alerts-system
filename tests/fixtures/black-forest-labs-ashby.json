@@ -1,0 +1,59 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "bfl-1",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Freiburg (Germany)",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany",
+          "addressLocality": "Freiburg"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "OnSite",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/black-forest-labs/bfl-1",
+      "descriptionPlain": "Build and deploy machine learning systems for generative media. English is required.",
+      "isListed": true
+    },
+    {
+      "id": "bfl-2",
+      "title": "Senior Data Scientist",
+      "location": "London",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United Kingdom",
+          "addressLocality": "London"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/black-forest-labs/bfl-2",
+      "descriptionPlain": "Develop machine learning models for generative media.",
+      "isListed": true
+    },
+    {
+      "id": "bfl-3",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Freiburg (Germany)",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany",
+          "addressLocality": "Freiburg"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "OnSite",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/black-forest-labs/bfl-3",
+      "descriptionPlain": "Build production machine learning services. Fluent German is mandatory.",
+      "isListed": true
+    }
+  ]
+}

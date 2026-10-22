@@ -1,0 +1,19 @@
+{
+  "total": 2,
+  "jobPostings": [
+    {
+      "title": "Senior Machine Learning Engineer",
+      "externalPath": "/job/Singapore/Senior-Machine-Learning-Engineer_WD100",
+      "locationsText": "Singapore - Central",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": ["WD100"]
+    },
+    {
+      "title": "Account Executive",
+      "externalPath": "/job/Singapore/Account-Executive_WD101",
+      "locationsText": "Singapore - Central",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": ["WD101"]
+    }
+  ]
+}

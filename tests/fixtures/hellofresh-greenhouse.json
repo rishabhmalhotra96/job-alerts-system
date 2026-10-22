@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": 9401,
+      "title": "Senior AI Engineer",
+      "location": { "name": "Berlin, Berlin, Germany" },
+      "absolute_url": "https://careers.hellofresh.com/global/en/job/9401?gh_jid=9401",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build and deploy machine learning systems for food personalization. English is required.</p>"
+    },
+    {
+      "id": 9402,
+      "title": "Senior Data Scientist",
+      "location": { "name": "Porto, Portugal" },
+      "absolute_url": "https://careers.hellofresh.com/global/en/job/9402?gh_jid=9402",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Develop machine learning models for demand forecasting.</p>"
+    },
+    {
+      "id": 9403,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Berlin, Berlin, Germany" },
+      "absolute_url": "https://careers.hellofresh.com/global/en/job/9403?gh_jid=9403",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build production machine learning services. Fluent German is mandatory.</p>"
+    }
+  ]
+}

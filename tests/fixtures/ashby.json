@@ -1,0 +1,48 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "job-101",
+      "title": "Senior Machine Learning Engineer",
+      "location": "London",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United Kingdom",
+          "addressLocality": "London"
+        }
+      },
+      "secondaryLocations": [
+        {
+          "location": "Munich",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "Germany",
+              "addressLocality": "Munich"
+            }
+          }
+        }
+      ],
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-10T08:00:00Z",
+      "updatedAt": "2026-09-15T10:30:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/example/job-101",
+      "descriptionPlain": "Build machine learning ranking systems.",
+      "isListed": true
+    },
+    {
+      "id": "job-102",
+      "title": "Account Executive",
+      "location": "Berlin",
+      "secondaryLocations": [],
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-11T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/example/job-102",
+      "descriptionPlain": "Manage enterprise accounts.",
+      "isListed": true
+    }
+  ]
+}

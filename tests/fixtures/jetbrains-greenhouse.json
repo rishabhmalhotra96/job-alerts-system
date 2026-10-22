@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": 9601,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Prague, Czech Republic" },
+      "absolute_url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/9601",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products. English is required.</p>"
+    },
+    {
+      "id": 9602,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Berlin, Germany" },
+      "absolute_url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/9602",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products.</p>"
+    },
+    {
+      "id": 9603,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Prague, Czech Republic" },
+      "absolute_url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/9603",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products. Fluent Czech is mandatory.</p>"
+    }
+  ]
+}

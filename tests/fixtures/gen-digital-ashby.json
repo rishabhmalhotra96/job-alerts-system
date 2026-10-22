@@ -1,0 +1,77 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "gen-1",
+      "title": "Senior Machine Learning Engineer",
+      "location": "CZE - Prague",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Czechia",
+          "addressLocality": "Prague"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/gen-digital/gen-1",
+      "descriptionPlain": "Build machine learning products. English is required.",
+      "isListed": true
+    },
+    {
+      "id": "gen-2",
+      "title": "Senior Machine Learning Engineer",
+      "location": "DEU - Berlin",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Germany",
+          "addressLocality": "Berlin"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/gen-digital/gen-2",
+      "descriptionPlain": "Build machine learning products.",
+      "isListed": true
+    },
+    {
+      "id": "gen-3",
+      "title": "Senior Machine Learning Engineer",
+      "location": "CZE - Prague",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Czechia",
+          "addressLocality": "Prague"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/gen-digital/gen-3",
+      "descriptionPlain": "Build machine learning products. Fluent Czech is mandatory.",
+      "isListed": true
+    },
+    {
+      "id": "gen-unlisted",
+      "title": "Senior Data Scientist",
+      "location": "CZE - Prague",
+      "address": {
+        "postalAddress": {
+          "addressCountry": "Czechia",
+          "addressLocality": "Prague"
+        }
+      },
+      "secondaryLocations": [],
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-09-20T08:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/gen-digital/gen-unlisted",
+      "descriptionPlain": "This direct-link-only role must not be collected.",
+      "isListed": false
+    }
+  ]
+}

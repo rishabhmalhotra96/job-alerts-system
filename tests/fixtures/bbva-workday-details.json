@@ -1,0 +1,28 @@
+[
+  {
+    "jobPostingInfo": {
+      "id": "internal-100",
+      "jobReqId": "JR100",
+      "title": "Senior Data Scientist",
+      "location": "28050, MADRID, Madrid",
+      "additionalLocations": [],
+      "country": { "descriptor": "España", "id": "workday-spain" },
+      "timeType": "Full time",
+      "jobDescription": "<p>BBVA AI Factory operates as a global hub within the Data area. Build machine learning products in Madrid. English is required.</p>",
+      "externalUrl": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/28050-MADRID-Madrid/Senior-Data-Scientist_JR100"
+    }
+  },
+  {
+    "jobPostingInfo": {
+      "id": "internal-101",
+      "jobReqId": "JR101",
+      "title": "Senior Machine Learning Engineer",
+      "location": "28050, MADRID, Madrid",
+      "additionalLocations": [],
+      "country": { "descriptor": "España", "id": "workday-spain" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Join a generic BBVA engineering team building machine learning products in Madrid. English is required.</p>",
+      "externalUrl": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/28050-MADRID-Madrid/Senior-Machine-Learning-Engineer_JR101"
+    }
+  }
+]

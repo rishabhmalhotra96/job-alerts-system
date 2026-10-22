@@ -1,0 +1,46 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Rebtel",
+  "home_page_url": "https://rebtel.teamtailor.com/jobs",
+  "feed_url": "https://rebtel.teamtailor.com/jobs.json",
+  "items": [
+    {
+      "id": "44444444-4444-4444-8444-444444444444",
+      "title": "Senior Machine Learning Engineer",
+      "url": "https://rebtel.teamtailor.com/jobs/9300001-senior-machine-learning-engineer",
+      "date_published": "2026-10-01T08:00:00Z",
+      "content_html": "<p>Build machine learning systems. Relocation support is available.</p>",
+      "_jobposting": {
+        "@context": "http://schema.org/",
+        "@type": "JobPosting",
+        "title": "Senior Machine Learning Engineer",
+        "description": "<p>Build machine learning systems. Relocation support is available.</p>",
+        "identifier": { "@type": "PropertyValue", "name": "Rebtel", "value": 9300001 },
+        "datePosted": "2026-10-01T08:00:00Z",
+        "hiringOrganization": { "@type": "Organization", "name": "Rebtel" },
+        "jobLocation": [
+          { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Stockholm", "addressCountry": "SE" } }
+        ]
+      }
+    },
+    {
+      "id": "55555555-5555-4555-8555-555555555555",
+      "title": "Senior Data Scientist",
+      "url": "https://rebtel.teamtailor.com/jobs/9300002-senior-data-scientist",
+      "date_published": "2026-10-02T08:00:00Z",
+      "content_html": "<p>Develop machine learning models. No visa sponsorship is available.</p>",
+      "_jobposting": {
+        "@context": "http://schema.org/",
+        "@type": "JobPosting",
+        "title": "Senior Data Scientist",
+        "description": "<p>Develop machine learning models. No visa sponsorship is available.</p>",
+        "identifier": { "@type": "PropertyValue", "name": "Rebtel", "value": 9300002 },
+        "datePosted": "2026-10-02T08:00:00Z",
+        "hiringOrganization": { "@type": "Organization", "name": "Rebtel" },
+        "jobLocation": [
+          { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Stockholm", "addressCountry": "SE" } }
+        ]
+      }
+    }
+  ]
+}

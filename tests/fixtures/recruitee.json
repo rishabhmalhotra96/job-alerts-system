@@ -1,0 +1,62 @@
+{
+  "offers": [
+    {
+      "id": 2711723,
+      "company_name": "Patsnap",
+      "title": "Senior Machine Learning Engineer (AI Agent)",
+      "slug": "senior-machine-learning-engineer-ai-agent",
+      "status": "published",
+      "careers_url": "https://careers.patsnap.com/o/senior-machine-learning-engineer-ai-agent",
+      "description": "<p>Build machine learning and LLM agent systems.</p>",
+      "requirements": "<p>Professional English is required.</p>",
+      "remote": false,
+      "on_site": true,
+      "hybrid": false,
+      "locations": [
+        { "name": "Singapore", "country_code": "SG" }
+      ],
+      "employment_type_code": "fulltime_permanent",
+      "published_at": "2026-08-16 05:50:45 UTC",
+      "updated_at": "2026-08-19 02:36:14 UTC"
+    },
+    {
+      "id": 2711721,
+      "company_name": "Patsnap",
+      "title": "Senior AI Engineer - LLM Agents",
+      "slug": "senior-ai-engineer-llm-agents",
+      "status": "published",
+      "careers_url": "https://careers.patsnap.com/o/senior-ai-engineer-llm-agents",
+      "description": "<p>Develop deep learning and NLP products.</p>",
+      "requirements": "<p>Fluent Mandarin is required.</p>",
+      "remote": true,
+      "on_site": true,
+      "hybrid": true,
+      "locations": [
+        { "name": "Singapore", "country_code": "SG" }
+      ],
+      "employment_type_code": "fulltime_permanent",
+      "published_at": "2026-08-16 05:45:04 UTC",
+      "updated_at": "2026-09-11 03:12:04 UTC"
+    },
+    {
+      "id": 2758713,
+      "company_name": "Patsnap",
+      "title": "Senior AI Engineer",
+      "slug": "senior-ai-engineer-canada",
+      "status": "published",
+      "careers_url": "https://careers.patsnap.com/o/senior-ai-engineer-canada",
+      "description": "<p>Build machine learning solutions.</p>",
+      "requirements": "<p>English is required.</p>",
+      "remote": false,
+      "on_site": true,
+      "hybrid": false,
+      "locations": [
+        { "name": "Toronto", "country_code": "CA" },
+        { "name": "Vancouver", "country_code": "CA" }
+      ],
+      "employment_type_code": "fulltime_permanent",
+      "published_at": "2026-09-23 14:54:52 UTC",
+      "updated_at": "2026-09-24 09:15:00 UTC"
+    }
+  ]
+}

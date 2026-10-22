@@ -1,0 +1,13 @@
+{
+  "jobPostingInfo": {
+    "id": "internal-100",
+    "jobReqId": "WD100",
+    "title": "Senior Machine Learning Engineer",
+    "location": "Singapore - Central",
+    "additionalLocations": ["Singapore - East"],
+    "country": "Singapore",
+    "timeType": "Full time",
+    "jobDescription": "<p>Build machine learning ranking systems.</p>",
+    "externalUrl": "https://example.wd3.myworkdayjobs.com/Careers/job/Singapore/Senior-Machine-Learning-Engineer_WD100"
+  }
+}

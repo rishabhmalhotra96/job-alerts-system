@@ -1,0 +1,41 @@
+[
+  {
+    "jobPostingInfo": {
+      "id": "internal-100",
+      "jobReqId": "RZ100",
+      "title": "Senior Data Scientist",
+      "location": "Singapore",
+      "additionalLocations": [],
+      "country": { "descriptor": "Singapore", "id": "workday-singapore" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products. English is required.</p>",
+      "externalUrl": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Senior-Data-Scientist_RZ100"
+    }
+  },
+  {
+    "jobPostingInfo": {
+      "id": "internal-102",
+      "jobReqId": "RZ102",
+      "title": "Senior Machine Learning Engineer",
+      "location": "Chengdu",
+      "additionalLocations": [],
+      "country": { "descriptor": "China", "id": "workday-china" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products.</p>",
+      "externalUrl": "https://razer.wd3.myworkdayjobs.com/Careers/job/Chengdu/Senior-Machine-Learning-Engineer_RZ102"
+    }
+  },
+  {
+    "jobPostingInfo": {
+      "id": "internal-103",
+      "jobReqId": "RZ103",
+      "title": "Senior AI Engineer",
+      "location": "Singapore",
+      "additionalLocations": [],
+      "country": { "descriptor": "Singapore", "id": "workday-singapore" },
+      "timeType": "Full time",
+      "jobDescription": "<p>Build machine learning products. Fluent Mandarin is mandatory.</p>",
+      "externalUrl": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Senior-AI-Engineer_RZ103"
+    }
+  }
+]

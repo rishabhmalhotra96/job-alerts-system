@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "id": 92001,
+      "title": "Senior Data Scientist",
+      "location": { "name": "London, United Kingdom" },
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/92001",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Full-time" }],
+      "content": "<p>Build machine learning models for financial products. We can sponsor visas.</p>"
+    },
+    {
+      "id": 92002,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "London, United Kingdom" },
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/92002",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Full-time" }],
+      "content": "<p>Build machine learning systems. Relocation support is available.</p>"
+    },
+    {
+      "id": 92003,
+      "title": "Senior AI Engineer",
+      "location": { "name": "London, United Kingdom" },
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/92003",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Full-time" }],
+      "content": "<p>Build machine learning services. We can sponsor visas. No visa sponsorship is available for this role.</p>"
+    },
+    {
+      "id": 92004,
+      "title": "Senior Applied Scientist",
+      "location": { "name": "Madrid, Spain" },
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/92004",
+      "first_published": "2026-10-01T08:00:00Z",
+      "updated_at": "2026-10-05T08:00:00Z",
+      "metadata": [{ "name": "Employment Type", "value": "Full-time" }],
+      "content": "<p>Research machine learning systems. We can sponsor visas.</p>"
+    }
+  ]
+}

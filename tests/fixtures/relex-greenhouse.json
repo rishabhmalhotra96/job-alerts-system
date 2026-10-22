@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": 9701,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Helsinki, Finland" },
+      "absolute_url": "https://www.relexsolutions.com/careers/jobs/?gh_jid=9701",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products. English is required.</p>"
+    },
+    {
+      "id": 9702,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Berlin, Germany" },
+      "absolute_url": "https://www.relexsolutions.com/careers/jobs/?gh_jid=9702",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products.</p>"
+    },
+    {
+      "id": 9703,
+      "title": "Senior Machine Learning Engineer",
+      "location": { "name": "Helsinki, Finland" },
+      "absolute_url": "https://www.relexsolutions.com/careers/jobs/?gh_jid=9703",
+      "first_published": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-24T08:00:00Z",
+      "content": "<p>Build machine learning products. Fluent Finnish is mandatory.</p>"
+    }
+  ]
+}

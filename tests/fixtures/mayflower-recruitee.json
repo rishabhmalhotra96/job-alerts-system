@@ -1,0 +1,26 @@
+{
+  "offers": [
+    {
+      "id": 123456,
+      "company_name": "Mayflower",
+      "title": "Senior Machine Learning Engineer",
+      "slug": "senior-machine-learning-engineer",
+      "status": "published",
+      "careers_url": "https://mayflower.recruitee.com/o/senior-machine-learning-engineer",
+      "description": "<p>Build machine learning products.</p>",
+      "requirements": "<p>Professional English is required.</p>",
+      "remote": false,
+      "on_site": true,
+      "hybrid": false,
+      "locations": [
+        {
+          "name": "Limassol",
+          "country_code": "CY"
+        }
+      ],
+      "employment_type_code": "fulltime_permanent",
+      "published_at": "2026-10-01 09:00:00 UTC",
+      "updated_at": "2026-10-18 09:00:00 UTC"
+    }
+  ]
+}
