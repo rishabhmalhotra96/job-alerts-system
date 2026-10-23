@@ -43,7 +43,7 @@ test("isolates one unavailable address without aborting healthy batched requests
       const urls = requests.map((request) =>
         typeof request === "string" ? request : String(request.url));
       batches.push(urls);
-      if (urls.includes("https://bad.example/job")) {
+      if (urls.some((url) => url === "https://bad.example/job")) {
         throw new Error("Address unavailable");
       }
       return urls.map((url) => response(JSON.stringify({ url })));

@@ -55,9 +55,52 @@ function extractJsonArray(value: string, marker: string): string {
   throw new Error("Bolt payload has an unterminated jobs array");
 }
 
+function isHtmlSpace(value: string | undefined): boolean {
+  return value === " " || value === "\t" || value === "\n" || value === "\r" || value === "\f";
+}
+
+function extractScriptBodies(html: string): string[] {
+  const lowerHtml = html.toLowerCase();
+  const bodies: string[] = [];
+  let offset = 0;
+  while (offset < html.length) {
+    const opening = lowerHtml.indexOf("<script", offset);
+    if (opening < 0) {
+      break;
+    }
+    const afterOpeningName = lowerHtml[opening + "<script".length];
+    if (afterOpeningName !== ">" && !isHtmlSpace(afterOpeningName)) {
+      offset = opening + "<script".length;
+      continue;
+    }
+    const openingEnd = html.indexOf(">", opening + "<script".length);
+    if (openingEnd < 0) {
+      break;
+    }
+
+    let closing = lowerHtml.indexOf("</script", openingEnd + 1);
+    while (closing >= 0) {
+      const afterClosingName = lowerHtml[closing + "</script".length];
+      if (afterClosingName === ">" || isHtmlSpace(afterClosingName)) {
+        break;
+      }
+      closing = lowerHtml.indexOf("</script", closing + "</script".length);
+    }
+    if (closing < 0) {
+      break;
+    }
+    const closingEnd = html.indexOf(">", closing + "</script".length);
+    if (closingEnd < 0) {
+      break;
+    }
+    bodies.push(html.slice(openingEnd + 1, closing));
+    offset = closingEnd + 1;
+  }
+  return bodies;
+}
+
 function parseFlightPayload(html: string): unknown[] {
-  const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)]
-    .map((match) => match[1])
+  const scripts = extractScriptBodies(html)
     .filter((script) => script.includes("parsedJobs"));
   if (scripts.length !== 1) {
     throw new Error("Bolt page has a missing or ambiguous jobs payload");

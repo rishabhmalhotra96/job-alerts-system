@@ -55,6 +55,28 @@ function normalizeText(value: string): string {
     .trim();
 }
 
+function stripHtmlComments(value: string): string {
+  let result = "";
+  let offset = 0;
+  while (offset < value.length) {
+    const opening = value.indexOf("<!--", offset);
+    const closing = value.indexOf("-->", offset);
+    if (closing >= 0 && (opening < 0 || closing < opening)) {
+      throw new Error("INESC TEC listing has malformed HTML comments");
+    }
+    if (opening < 0) {
+      return result + value.slice(offset);
+    }
+    result += value.slice(offset, opening);
+    const commentEnd = value.indexOf("-->", opening + 4);
+    if (commentEnd < 0) {
+      throw new Error("INESC TEC listing has malformed HTML comments");
+    }
+    offset = commentEnd + 3;
+  }
+  return result;
+}
+
 function parseIsoDate(value: string, field: string): string {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
     throw new Error(`INESC TEC has invalid ${field}`);
@@ -127,8 +149,9 @@ export function parseInescTecListing(
     || !/<meta\b[^>]*property="og:url"[^>]*content="https:\/\/www\.inesctec\.pt\/en\/opportunities\/list"[^>]*>/i.test(html)) {
     throw new Error("INESC TEC listing has invalid identity");
   }
-  const thead = exactlyOneMatch(html, /<thead[^>]*>([\s\S]*?)<\/thead>/gi, "listing header")[1]
-    .replace(/<!--[\s\S]*?-->/g, "");
+  const thead = stripHtmlComments(
+    exactlyOneMatch(html, /<thead[^>]*>([\s\S]*?)<\/thead>/gi, "listing header")[1],
+  );
   const headers = [...thead.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gi)]
     .map((match) => htmlToText(match[1]))
     .filter((value) => value !== "");
@@ -145,7 +168,7 @@ export function parseInescTecListing(
   const today = fetchedDate(fetchedAt);
   const seenIds = new Set<string>();
   const allListings = rows.map((row) => {
-    const rowHtml = row[1].replace(/<!--[\s\S]*?-->/g, "");
+    const rowHtml = stripHtmlComments(row[1]);
     const cells = [...rowHtml.matchAll(/<td\b([^>]*)>([\s\S]*?)<\/td>/gi)];
     if (cells.length !== 10) {
       throw new Error("INESC TEC listing row has unexpected columns");

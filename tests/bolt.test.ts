@@ -68,6 +68,16 @@ test("rejects duplicate identities and malformed payload wrappers", () => {
   assert.throws(() => parseBoltResponse(page().replace("self.__next_f.push", "window.push"), source, "2026-09-16T12:00:00Z"), /invalid jobs payload wrapper/);
 });
 
+test("accepts browser-tolerated content in script closing tags", () => {
+  const parsed = parseBoltResponse(
+    page().replace("</script>", "</script\t\n data-ignored>"),
+    source,
+    "2026-09-16T12:00:00Z",
+  );
+
+  assert.equal(parsed.length, 1);
+});
+
 test("rejects oversized arrays and non-allowlisted canonical hosts", () => {
   assert.throws(
     () => parseBoltResponse(page(jobs), { ...source, maxJobs: 0 }, "2026-09-16T12:00:00Z"),
